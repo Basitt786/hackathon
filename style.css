@@ -1,0 +1,82 @@
+header {
+    background-image: url(./hackathons-750x536.webp);
+    height: 200px ; 
+}
+
+main {
+    margin-top: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #12092b;
+    position: relative;
+    top: -50px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #042503;
+  }
+
+.col1 , .col2 , .col3{
+    float: left;
+    width: 33.33%;
+    background: rgba(240, 240, 240, 0.384);
+    text-align: left;
+    font-size: 28px;
+    font-family: ui-sans-serif;
+    font-weight: 500;
+}
+
+h2 {
+   
+    text-decoration: underline double rgb(4, 4, 46);
+    color: rgb(255, 5, 5);
+}
+
+footer {
+    background-color: #12092b;
+    height: 300px;
+    margin-top: 55%;
+}
+
+#hack {
+  font-size: 57px;
+  color: aliceblue;
+  position: relative;
+  top: 125px;
+  left: 52px;
+}
+
+
+
+.vl {
+  border-left: 3px double rgb(255 27 27);
+  height: 243px;
+  position: absolute;
+  left: 50%;
+  margin-left: -200px;
+  bottom: -44%;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+
+}    
